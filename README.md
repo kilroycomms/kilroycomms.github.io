@@ -1,2 +1,0 @@
-# kilroycomms.github.io
-Placeholder
