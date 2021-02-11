@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta name="robots" content="noindex" />
+    <meta charset="utf-8">
+    <meta name="description" content="Kilroy will be here."/>
+    <meta name="robots" content="noindex, nofollow">
     <title>
       Kilroy will be here.
     </title>
@@ -9,6 +11,9 @@
     <script type="text/javascript">
       var _paq = window._paq = window._paq || [];
       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(["setDoNotTrack", true]);
+      _paq.push(["disableCookies"]);
       _paq.push(['trackPageView']);
       _paq.push(['enableLinkTracking']);
       (function() {
@@ -19,6 +24,7 @@
         g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
       })();
     </script>
+    <noscript><p><img src="//matomo.kilroycomms.ch/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
     <!-- End Matomo Code -->
   </head>
   <body>
